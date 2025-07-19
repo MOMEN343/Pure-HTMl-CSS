@@ -1,5 +1,12 @@
-# My Templates
+# Pure HTML/CSS Web Templates
 
-### Live Demos:
+This repository contains responsive, pure HTML/CSS web templates.  
+No JavaScript, no frameworks — just clean and modern HTML5 and CSS3.
 
-- [Template 01][(https://your-username.github.io/your-repo/template01/)](https://momen343.github.io/Pure-HTMl-CSS/)
+---
+
+###  Live Demos
+
+- [Template 01](https://momen343.github.io/Pure-HTMl-CSS/template01/)
+
+
