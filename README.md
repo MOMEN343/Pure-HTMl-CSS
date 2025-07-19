@@ -7,6 +7,6 @@ No JavaScript, no frameworks — just clean and modern HTML5 and CSS3.
 
 ###  Live Demos
 
-- [Template 01](https://momen343.github.io/Pure-HTMl-CSS/template01/)
+- [Template 01](https://momen343.github.io/Pure-HTMl-CSS/Template01/)
 
 
