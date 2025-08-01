@@ -10,3 +10,10 @@ No JavaScript, no frameworks — just clean and modern HTML5 and CSS3.
 - [Template 01](https://momen343.github.io/Pure-HTMl-CSS/Template01/)
 
 
+> **Note:**  
+> AOS (Animate On Scroll) was used purely for design enhancement through HTML `data-aos` attributes.  
+> No JavaScript was added — animations are static across all screen sizes.
+
+
+
+
