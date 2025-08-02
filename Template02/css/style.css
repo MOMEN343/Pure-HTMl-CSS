@@ -34,7 +34,6 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  overflow-x: hidden
 }
 
 .logo {
@@ -613,7 +612,7 @@ nav .contact:hover {
 .schedule-section .schedule-grid{
   padding-top: 70px;
   height: 1067px;
-  background: url(./assets/images/schedule-background.png) ;
+  background: url(../assets/images/schedule-background.png) ;
 
 }
 
@@ -865,7 +864,7 @@ nav .contact:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(./assets/images/Mask@1x.png);
+  background: url(../assets/images/Mask@1x.png);
   position: relative;
   height: 340px;
   color: white;
