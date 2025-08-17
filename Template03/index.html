@@ -1,30 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template03</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template03</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <a class="logo" href="index.html"><i class="bi-back"></i>Topic</a>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Browse Topics</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Pages</a></li>
-                </ul>
-                <a href="#">i</a>
-            </nav>
-        </div>
-    </header>
-    <div class="hero-section">
+  <header>
+    <div class="container">
+      <a class="logo" href="index.html"><i class="fa-solid fa-clone"></i>Topic</a>
+
+      <div class="navbar">
+
+        <i class="fa-solid fa-bars" id="menu-toggle"></i>
+        <nav id="main-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Browse Topics</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Pages</a></li>
+          </ul>
+                  
+        </nav>
+
+        <a href="#" class="user-icon"><i class="fa-regular fa-user" ></i></a>
         
+        </div>
     </div>
+  </header>
+<div class="hero-section">
+  <div class="hero-title">
+    <h1>Discover. Learn. Enjoy</h1>
+    <span>platform for creatives around the world</span>
+    <div class="search-container">
+      <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+      <input type="search" placeholder="Design, Code, Marketing, Finance ..." />
+      <button class="search-button">Search</button>
+    </div>
+  </div>
+</div>
+  <div class="boxes">
+    <div class="container">
+      <div class="holder">
+        <div class="wep-design">
+          <div class="title">
+            <h3>Wep Design</h3>
+            <span>14</span>
+          </div>
+          <p>When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+          <div class="image">
+            <img src="Images/undraw_Remote_design_team_re_urdx.png" alt="">
+          </div>
+        </div>
+        <div class="finance">
+          <div class="image">
+            <img src="./Images/businesswoman-using-tablet-analysis.jpg" alt="">
+          </div>
+          <div class="content">   
+            <div class="top">
+              <div class="title">
+                <h3>Finance</h3>
+                <span>25</span>
+              </div>
+              <p>Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="social">
+              <div class="icons">
+                <span>Share</span>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <div class="save-icon">
+                <i class="fa-regular fa-save"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
