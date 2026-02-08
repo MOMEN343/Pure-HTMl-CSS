@@ -4,15 +4,15 @@
   box-sizing: border-box;
 }
 
-body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    background-image:url(../assets/images/background2.jpg);
-    background-size: cover;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-image: url(../assets/images/background2.jpg);
+  background-size: cover;
 }
 
 header {
-  padding: 40px 0;
+  padding-top: 40px;
 
 }
 
@@ -25,18 +25,18 @@ header {
   align-items: center;
 }
 
-header a{
+header a {
   text-decoration: none;
-    color: white;
+  color: white;
 }
 
 header h1 {
   font-weight: 2000;
   font-size: 40px;
-}  
+}
 
 header h1 span {
-  font-weight: 20; 
+  font-weight: 20;
   padding-left: 10px;
 
 }
@@ -68,7 +68,7 @@ header h1 span {
     align-items: center;
   }
 
-  #menu-toggle:checked + .menu-icon + nav ul  {
+  #menu-toggle:checked+.menu-icon+nav ul {
     display: flex;
   }
 
@@ -96,6 +96,7 @@ nav a:hover {
 
 .landing {
   padding: 80px 0;
+  height: calc(100vh - 93.6px);
 
 }
 
@@ -138,19 +139,19 @@ nav a:hover {
   transition: color 0.7s ease;
 }
 
-.learn-more:hover{
+.learn-more:hover {
   background: white;
   color: black;
 }
 
-.login{
-    background-color: blanchedalmond;
-    width: 400px;
-    padding: 30px;
-    padding-bottom: 100px;
-    border-radius: 20px;
-    text-align: center;
-    color: black;
+.login {
+  background-color: blanchedalmond;
+  width: 400px;
+  padding: 30px;
+  padding-bottom: 100px;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
 }
 
 .login input[type="text"],
@@ -169,7 +170,7 @@ nav a:hover {
 
 .login input::placeholder {
   color: black;
-  opacity: 1; 
+  opacity: 1;
   font-size: 18px;
   font-weight: 600;
   transition: color 0.3s ease;
@@ -180,22 +181,22 @@ nav a:hover {
 }
 
 
-.login h3{
+.login h3 {
   padding: 50px;
   font-size: 21px;
   font-weight: 100;
   letter-spacing: 3px;
 }
 
-.login .buttons{
-    display: flex;
-    gap: 10px;
-    margin-top: 15px;
-    align-items: center;
+.login .buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  align-items: center;
 }
 
 .login .buttons button {
-  background: linear-gradient(to right,  #a28d70, #a18c6d);
+  background: linear-gradient(to right, #a28d70, #a18c6d);
   padding: 10px 40px;
   border-radius: 20px;
   color: white;
@@ -207,8 +208,8 @@ nav a:hover {
   transition: 0.6s ease;
 }
 
-.login .buttons button:hover{
-  background:black;
+.login .buttons button:hover {
+  background: black;
 }
 
 .login .buttons .options {
@@ -222,7 +223,7 @@ nav a:hover {
 .login .buttons .options .radio-item {
   display: flex;
   align-items: center;
-  gap: 5px; 
+  gap: 5px;
 }
 
 
@@ -246,7 +247,7 @@ nav a:hover {
     gap: 30px;
   }
 
-  .landing{
+  .landing {
     padding: 0;
   }
 
@@ -299,7 +300,7 @@ nav a:hover {
 }
 
 @media (max-width: 992px) {
- 
+
   .container {
     flex-direction: column;
     align-items: center;
