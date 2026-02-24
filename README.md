@@ -10,6 +10,7 @@ No JavaScript, no frameworks — just clean and modern HTML5 and CSS3.
 - [Template 01 - Single-page Login Layout](https://momen343.github.io/Pure-HTMl-CSS/Template01/) 
 - [Template 02](https://momen343.github.io/Pure-HTMl-CSS/Template02/)
 - [Template 03](https://momen343.github.io/Pure-HTMl-CSS/Template03/)
+- [Template 04](https://momen343.github.io/Pure-HTMl-CSS/Template04/)
 
 
 > **Note:**  
