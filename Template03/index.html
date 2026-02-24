@@ -2,97 +2,225 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template03</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template-2</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <a class="logo" href="index.html"><i class="fa-solid fa-clone"></i>Topic</a>
-
-      <div class="navbar">
-
-        <i class="fa-solid fa-bars" id="menu-toggle"></i>
-        <nav id="main-nav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Browse Topics</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Pages</a></li>
-          </ul>
-                  
-        </nav>
-
-        <a href="#" class="user-icon"><i class="fa-regular fa-user" ></i></a>
-        
+    <!-- Start header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <span></span>
+                    <i class="fas fa-search"></i>
+                </div>
+            </nav>
         </div>
-    </div>
-  </header>
-<div class="hero-section">
-  <div class="hero-title">
-    <h1>Discover. Learn. Enjoy</h1>
-    <span>platform for creatives around the world</span>
-    <div class="search-container">
-      <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
-      <input type="search" placeholder="Design, Code, Marketing, Finance ..." />
-      <button class="search-button">Search</button>
-    </div>
-  </div>
-</div>
-  <div class="boxes">
-    <div class="container">
-      <div class="holder">
-        <div class="wep-design">
-          <div class="title">
-            <h3>Wep Design</h3>
-            <span>14</span>
-          </div>
-          <p>When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
-          <div class="image">
-            <img src="Images/undraw_Remote_design_team_re_urdx.png" alt="">
-          </div>
-        </div>
-        <div class="finance">
-          <div class="image">
-            <img src="./Images/businesswoman-using-tablet-analysis.jpg" alt="">
-          </div>
-          <div class="content">   
-            <div class="top">
-              <div class="title">
-                <h3>Finance</h3>
-                <span>25</span>
-              </div>
-              <p>Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements</p>
-              <a href="#">Learn More</a>
+
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing  -->
+    <div class="landing">
+        <div class="overlay"></div>
+        <div class="text">
+            <div class="content">
+                <h2>HELLO WORLD!<br />
+                    WE ARE KASPER, WE MAKE ART.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia temporibus illo distinctio eos
+                    fugit, culpa quod molestias, delectus possimus ipsa minima aperiam qui exercitationem animi nam
+                    quasi tempora vero dolore?</p>
             </div>
-            <div class="social">
-              <div class="icons">
-                <span>Share</span>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-              <div class="save-icon">
-                <i class="fa-regular fa-save"></i>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+        <i class="fas fa-angle-left change-background fa-2x" onclick="ChangeContentLeft()"></i>
+        <i class="fas fa-angle-right change-background fa-2x" onclick="ChangeContentRight()"></i>
+        <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
     </div>
-  </div>
+    <!-- End Landing  -->
+    <!-- Srart Services  -->
+    <div class="services">
+        <div class="container">
+            <div class="special-heading">
+                <h2>Services</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, dignissimos est vitae laudantium
+                    reprehenderit,</p>
+            </div>
+            <div class="services-content">
+                <div class="srv">
+                    <i class="fas fa-desktop fa-3x"></i>
+                    <div class="text">
+                        <h3>blah blah blah blah</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, similique omnis. Laborum at
+                            nisi
+                            illum tenetur earum. Saepe doloremque totam accusamus! Odit.</p>
+                    </div>
+                </div>
+                <div class="srv">
+                    <i class="fas fa-cog fa-3x"></i>
+                    <div class="text">
+                        <h3>blah blah blah blah</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, similique omnis. Laborum at
+                            nisi
+                            illum tenetur earum. Saepe doloremque totam accusamus! Odit.</p>
+                    </div>
+                </div>
+                <div class="srv">
+                    <i class="fas fa-pencil-ruler fa-3x"></i>
+                    <div class="text">
+                        <h3>blah blah blah blah</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, similique omnis. Laborum at
+                            nisi
+                            illum tenetur earum. Saepe doloremque totam accusamus! Odit.</p>
+                    </div>
+                </div>
+                <div class="srv">
+                    <i class="fas fa-camera fa-3x"></i>
+                    <div class="text">
+                        <h3>blah blah blah blah</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, similique omnis. Laborum at
+                            nisi
+                            illum tenetur earum. Saepe doloremque totam accusamus! Odit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Design  -->
+    <div class="design">
+        <div class="image">
+            <img src="" alt="">
+        </div>
+        <div class="text">
+            <h2>Our Designs Comes With...</h2>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Modern And Clean Design</li>
+                <li>Clean Code</li>
+                <li>Browser Friendly</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Design  -->
+    <div class="portfolio">
+        <div class="container">
+            <div class="special-heading">
+                <h2>Portfolio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel est atque inventore porro. Ipsa
+                    explicabo dicta libero ullam ratione. Ipsa odit</p>
+            </div>
+            <ul>
+                <li class="active">All</li>
+                <li>App</li>
+                <li>Photography</li>
+                <li>web</li>
+                <li>print</li>
+            </ul>
+        </div>
+        <div class="image-container">
+            <div class="box">
+                <img src="img/shuffle-01.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/shuffle-02.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/shuffle-03.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/shuffle-04.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/shuffle-05.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/shuffle-06.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/shuffle-07.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/shuffle-08.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="more">More</a>
+    </div>
+    <div class="videoSection">
+        <video autoplay muted loop>
+            <source src="img/videoSection.mp4" type="video/mp4">
+        </video>
+        <div class="text">
+            <h2>Super Awesome video here</h2>
+            <p>It's all you need</p>
+            <a href="#">See More</a>
+        </div>
+    </div>
+    <div class="about">
+        <div class="special-heading">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia temporibus illo distinctio eos
+                fugit, culpa quod molestiasS</p>
+        </div>
+        <div class="hand-made">
+            <div class="made-img1"></div>
+            <div class="made-img2"></div>
+            <div class="made-img3"></div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
